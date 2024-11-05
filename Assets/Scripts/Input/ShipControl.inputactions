@@ -1,0 +1,54 @@
+{
+    "name": "ShipControl",
+    "maps": [
+        {
+            "name": "ShipActions",
+            "id": "aebbe07a-4758-4719-93ab-5fb5bedc14bb",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "8704945b-059e-46aa-be80-675a6fbb5c0a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MouseClick",
+                    "type": "Button",
+                    "id": "58200bc8-a63d-4de4-9244-0f7b20e1def9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9990f210-a40d-4437-a283-ffb76a2d88e2",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ada0684-0a18-48ce-8463-230857037dbb",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
